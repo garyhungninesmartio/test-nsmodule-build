@@ -1,6 +1,7 @@
 {
+  "extends": "./node_modules/ns-module-framework/tsconfig.json",
   "compilerOptions": {
-    "rootDir": "./",
-    "baseUrl": "."
+    "baseUrl": "./src",
+    "rootDir": "."
   }
 }
