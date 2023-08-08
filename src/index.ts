@@ -1,11 +1,2 @@
-import message from "./deeper/module";
-
-type FuncParam = {
-  name: String;
-};
-
-function printThyName(opts: FuncParam) {
-  message(opts.name);
-}
-
-printThyName({ name: "Build Process 0.1.0" });
+import message from "./util/message";
+message("Build Process 0.0.1");
