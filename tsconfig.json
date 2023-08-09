@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "exclude": ["**/node_modules", "**/dist", "**/webpack.*", "**/bin"],
+}
