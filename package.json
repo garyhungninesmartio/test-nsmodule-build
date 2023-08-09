@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "nsmodule-build",
+    "dev": "nsmodule-dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
